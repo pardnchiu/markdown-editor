@@ -1,0 +1,6 @@
+**/.DS_Store
+**/sass
+**/*.scss
+**/workspace.code-workspace
+**/*.js
+!**/*.min.js

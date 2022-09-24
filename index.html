@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown 簡易編輯器</title>
+  <script src="js/PDExtension.min.js" defer></script>
+  <script src="js/PDMDEditor.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+</style>
+<body>
+  <section id="top-button">
+    <h1>Markdown</h1>
+    <ul></ul>
+  </section>
+  <section id="md-editor">
+    <div># Markdown 簡易編輯器</div>
+    <div>> 為 [JOBALL找專家](https://joball.tw "") 的需求所開發的功能<br>用於提供給專家 (SOHO族 / 接案者) 們撰寫各自領域相關內容的編輯器<br>md語法未完善適配，會持續更新補強</div>
+    <div>&lt;br&gt;</div>
+    <div>##### 引用</div>
+    <div>- 圖示: [Font Awesome 5.15.4 Free](https://fontawesome.com/v5/search "Font Awesome 5.15.4 Free")</div>
+    <div>- 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify "Google Code-Pretty")</div>
+    <div>&lt;br&gt;</div>
+    <div>##### 需自行實現</div>
+    <div>- 上傳圖片</div>
+    <div>&lt;br&gt;</div>
+    <div>##### 功能介紹</div>
+    <div>###### 字體</div>
+    <div># 標題1</div>
+    <div>## 標題2</div>
+    <div>### 標題3</div>
+    <div>#### 標題4</div>
+    <div>##### 標題5</div>
+    <div>###### 標題6</div>
+    <div>**粗體(*)**</div>
+    <div>__粗體(_)__</div>
+    <div>&lt;b&gt;粗體(html)&lt;/b&gt;</div>
+    <div>*斜體*</div>
+    <div>&lt;em&gt;斜體(html)&lt;/em&gt;</div>
+    <div>***粗斜體(*)***</div>
+    <div>__*粗斜體(_)*__</div>
+    <div>&lt;b&gt;&lt;em&gt;粗斜體(html)&lt;/em&gt;&lt;/b&gt;</div>
+    <div>&lt;br&gt;</div>
+    <div>###### 引用</div>
+    <div>&gt; 這是一段引用的註解&lt;br&gt;這是一段引用的註解&lt;br&gt;這是一段引用的註解</div>
+    <div>&lt;br&gt;</div>
+    <div>###### 圖片</div>
+    <div>| 圖片 | 圖片+標題 | 圖片+連結 |</div>
+    <div>| - | - | - |</div>
+    <div>| ![](https://avatars.githubusercontent.com/u/25631760?s=120) | ![Pardn Chiu](https://avatars.githubusercontent.com/u/25631760?s=120 "Pardn Chiu") | [![](https://avatars.githubusercontent.com/u/25631760?s=120)](https://github.com/pardnchiu "Pardn Chiu") |</div>
+    <div>&lt;br&gt;</div>
+    <div>###### 連結</div>
+    <div>| 連結+標題 | 直接連結 |</div>
+    <div>| - | - |</div>
+    <div>| [Github](https://github.com/pardnchiu "Github") | https://github.com/pardnchiu |</div>
+    <div>&lt;br&gt;</div>
+    <div>###### 表格</div>
+    <div>| 標題1 | 標題2 | 標題3 |</div>
+    <div>| - | - | - |</div>
+    <div>| 內容1 | 內容2 | 內容3 |</div>
+    <div>| 內容4 | 內容5 | 內容6 |</div>
+    <div>| 內容7 | 內容8 | 內容9 |</div>
+    <div>&lt;br&gt;</div>
+    <div>###### 五、程式碼</div>
+    <div>***・ 單列***</div>
+    <div>`const test = 123;`</div>
+    <div>***・ 多列***</div>
+    <div>```</div>
+    <div>function test1 () {</div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;console.log('123')</div>
+    <div>}; </div>
+    <div>```</div>
+    <div>***・ 縮排多列 (空白鍵 * 4／Tab * 1)***</div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;function test2 () {</div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log('123')</div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;}; </div>
+  </section>
+  <section id="md-preview">
+    <div></div>
+  </section>
+</body>
+</html>
