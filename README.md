@@ -1,10 +1,9 @@
 # Markdown 簡易編輯器
 > 為 [JOBALL找專家](https://joball.tw) / [UMD你的博客](https://umd.tw) 需求所開發的功能
-> 用來提供給用戶們撰寫內容的編輯器
-> md語法未完全適配，後續會更新補強
-> 僅展示的前端功能，若有上傳圖片需求，請自行搭配後台
-> <br>
-> 開發者: [Pardn Chiu](https://github.com/pardnchiu)
+用來提供給用戶們撰寫內容的編輯器
+md語法未完全適配，後續會更新補強
+僅展示的前端功能，若有上傳圖片需求，請自行搭配後台
+開發者: [Pardn Chiu](https://github.com/pardnchiu)
 
 
 ##### 引用
