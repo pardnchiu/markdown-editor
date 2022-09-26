@@ -13,7 +13,7 @@ md語法未完全適配，後續會更新補強
 ##### 預覽
 | index |
 | - |
-| ![image](./preview/index.png) |
+| ![image](./preview/Editor.png) |
 
 #### 頂部按鈕
 ```
