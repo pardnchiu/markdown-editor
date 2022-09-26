@@ -19,7 +19,6 @@
 用來提供給用戶們撰寫內容的編輯器
 md語法未完全適配，後續會更新補強
 僅展示的前端功能，若有上傳圖片需求，請自行搭配後台
-<br>
 開發者: [Pardn Chiu](https://github.com/pardnchiu)
 
 
@@ -27,7 +26,12 @@ md語法未完全適配，後續會更新補強
 - 圖示: [Font Awesome 5.15.4 Free](https://fontawesome.com/v5/search "Font Awesome 5.15.4 Free")
 - 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify "Google Code-Pretty")
 
-#### 頂部按鈕
+##### 預覽
+| index |
+| - |
+| ![image](./preview/index.png =100%*) |
+
+##### 頂部按鈕
 \`\`\`
 \<script\>
   var mdEditorConf = {
@@ -86,88 +90,11 @@ md語法未完全適配，後續會更新補強
 ##### 需自行實現`;
 
     var mdEditorConf = {
-      nav: {
-        title: ""
-      }
+      
     };
   </script>
   <section id="md-nav"></section>
-  <section id="md-editor">
-    <div></div>
-    <!-- <div>更改 `utf8mb4_0900_ai_ci` 為 `utf8mb4_general_ci`</div>
-    <div># Markdown 簡易編輯器</div>
-    <div></div>
-    <div>用於提供給用戶們撰寫內容的編輯器</div>
-    <div>md語法未完全適配，後續會更新補強</div>
-    <div>開發者: [Pardn Chiu](https://github.com/pardnchiu)</div>
-    <div>| test | test |</div>
-    <div>| --- | --- |</div>
-    <div>| test | test |</div>
-    <div>| test | test |</div>
-    <div></div>
-    <div></div>
-    <div>##### 引用</div>
-    <div>- 圖示: [Font Awesome 5.15.4 Free](https://fontawesome.com/v5/search "Font Awesome 5.15.4 Free")</div>
-    <div>- 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify "Google Code-Pretty")</div>
-    <div></div>
-    <div>##### 需自行實現</div>
-    <div>- 上傳圖片</div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div>##### 功能介紹</div>
-    <div>###### 字體</div>
-    <div># 標題1</div>
-    <div>## 標題2</div>
-    <div>### 標題3</div>
-    <div>#### 標題4</div>
-    <div>##### 標題5</div>
-    <div>###### 標題6</div>
-    <div>**粗體(*)**</div>
-    <div>__粗體(_)__</div>
-    <div>&lt;b&gt;粗體(html)&lt;/b&gt;</div>
-    <div>*斜體*</div>
-    <div>&lt;em&gt;斜體(html)&lt;/em&gt;</div>
-    <div>***粗斜體(*)***</div>
-    <div>__*粗斜體(_)*__</div>
-    <div>&lt;b&gt;&lt;em&gt;粗斜體(html)&lt;/em&gt;&lt;/b&gt;</div>
-    <div>&lt;br&gt;</div>
-    <div>###### 引用</div>
-    <div>&gt; 這是一段引用的註解&lt;br&gt;這是一段引用的註解&lt;br&gt;這是一段引用的註解</div>
-    <div>&lt;br&gt;</div>
-    <div>###### 圖片</div>
-    <div>| 圖片(寬160) | 圖片(高120) | 圖片+標題 | 圖片+連結 |</div>
-    <div>| - | - | - | - |</div>
-    <div>| ![](./image/pardn.svg =160*) | ![](./image/pardn.svg =*120) | ![Pardn Chiu](./image/pardn.svg "Pardn Chiu" =120*120) | [![](./image/pardn.svg =120*120)](https://github.com/pardnchiu "Pardn Chiu") |</div>
-    <div>&lt;br&gt;</div>
-    <div>###### 連結</div>
-    <div>| 連結+標題 | 直接連結 |</div>
-    <div>| - | - |</div>
-    <div>| [Github](https://github.com/pardnchiu "Github") | https://github.com/pardnchiu |</div>
-    <div>&lt;br&gt;</div>
-    <div>###### 表格</div>
-    <div>         | 標題1 | 標題2 | 標題3 |</div>
-    <div>| - | - | - |</div>
-    <div>| 內容1 | 內容2 | 內容3 |</div>
-    <div>| 內容4 | 內容5 | 內容6 |</div>
-    <div>| 內容7 | 內容8 | 內容9 |</div>
-    <div>&lt;br&gt;</div>
-    <div>###### 五、程式碼</div>
-    <div>***・ 單列***</div>
-    <div>`const test = 123;`</div>
-    <div>***・ 多列***</div>
-    <div>```</div>
-    <div>function test1 () {</div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;console.log('123')</div>
-    <div>}; </div>
-    <div>```</div>
-    <div>***・ 縮排多列 (空白鍵 * 4／Tab * 1)***</div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;function test2 () {</div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log('123')</div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;}; </div> -->
-  </section>
-  <section id="md-preview">
-    <div></div>
-  </section>
+  <section id="md-editor"></section>
+  <section id="md-preview"></section>
 </body>
 </html>

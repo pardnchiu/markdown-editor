@@ -10,6 +10,11 @@ md語法未完全適配，後續會更新補強
 - 圖示: [Font Awesome 5.15.4 Free](https://fontawesome.com/v5/search "Font Awesome 5.15.4 Free")
 - 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify "Google Code-Pretty")
 
+##### 預覽
+| index |
+| - |
+| ![image](./preview/index.png =100%*) |
+
 #### 頂部按鈕
 ```
 <script>
