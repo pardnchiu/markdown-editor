@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown 簡易編輯器</title>
-  <script src="js/PDExtension.min.js" defer></script>
-  <script src="js/PDMDEditor.min.js" defer></script>
+  <script src="js/PDExtension.min.js" async></script>
+  <script src="js/PDMDEditor.min.js" async></script>
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <link rel="stylesheet" href="css/index.css">
 </head>
@@ -94,7 +94,11 @@ md語法未完全適配，後續會更新補強
     };
   </script>
   <section id="md-nav"></section>
-  <section id="md-editor"></section>
-  <section id="md-preview"></section>
+  <section class="left">
+    <div id="md-editor"></div>
+  </section>
+  <section class="right">
+    <div id="md-preview"></div>
+  </section>
 </body>
 </html>
