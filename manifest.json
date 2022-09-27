@@ -1,0 +1,14 @@
+{
+  "name": "Markdown 編輯器",
+  "short_name": "Md Editor",
+  "icons": [],
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f0f2f5",
+  "theme_color": "#ffffff",
+  "description": "Markdown 編輯器",
+  "dir": "ltr",
+  "lang": "zh-Hant-TW"
+}
