@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown 簡易編輯器</title>
-  <script src="js/PDExtension.min.js" async></script>
-  <script src="js/PDMDEditor.min.js" async></script>
+  <script src="js/PDExtension.min.js" defer></script>
+  <script src="js/PDMDEditor.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <link rel="stylesheet" href="css/index.min.css">
 </head>
@@ -166,12 +166,22 @@ md語法未完全適配，後續會更新補強
     }
     #pop > div > ul > li {
       position: relative;
-      position: relative;
-      padding: 0.25rem 0;
+      /* padding: 0.25rem 0; */
       line-height: 1.5rem;
       font-size: 0.875rem;
       list-style-type: none;
       cursor: pointer;
+    }
+    #pop > div > ul > li > i {
+      position: relative;
+      vertical-align: top;
+      margin: 0 0.25rem;
+      padding: 0;
+      width: 1.5rem;
+      line-height: 1.5rem;
+      height: 1.5rem;
+      font-size: 1rem;
+      text-align: center;
     }
     #pop > div > ul > li:hover {
       background-color: rgba(0, 0, 0, 0.05);
