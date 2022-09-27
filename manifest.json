@@ -2,7 +2,7 @@
   "name": "Markdown 編輯器",
   "short_name": "Md Editor",
   "icons": [],
-  "start_url": "/",
+  "start_url": "https://pardnchiu.github.io/markdown-editor/",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
