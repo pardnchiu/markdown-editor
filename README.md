@@ -7,13 +7,13 @@ md語法未完全適配，後續會更新補強
 
 
 ##### 引用
-- 圖示: [Font Awesome 5.15.4 Free](https://fontawesome.com/v5/search "Font Awesome 5.15.4 Free")
+- 圖示: [Font Awesome 5.15.4](https://fontawesome.com/v5/search "Font Awesome 5.15.4")
 - 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify "Google Code-Pretty")
 
 ##### 預覽
 | index |
 | - |
-| ![image](./preview/Editor.png) |
+| ![image](./preview/1.png) |
 
 #### 頂部按鈕
 ```

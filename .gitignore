@@ -4,3 +4,4 @@
 **/workspace.code-workspace
 **/*.js
 !**/*.min.js
+**/*.css.map
