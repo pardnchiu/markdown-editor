@@ -7,7 +7,7 @@
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#f0f2f5",
-  "theme_color": "#ffffff",
+  "theme_color": "#f5f5f5",
   "description": "Markdown 編輯器",
   "dir": "ltr",
   "lang": "zh-Hant-TW"
