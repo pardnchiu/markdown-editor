@@ -23,14 +23,15 @@
 <body>
   <script>
     var mdEditorInfo = `# Markdown 簡易編輯器
-> 為 [JOBALL找專家](https://joball.tw) / [UMD你的博客](https://umd.tw) 需求所開發的功能
-用來提供給用戶們撰寫內容的編輯器
-md語法未完全適配，後續會更新補強
+> 為 [JOBALL找專家](https://joball.tw) / [UMD你的博客](https://umd.tw) 需求所開發的功能\<br\>
+用來提供給用戶們撰寫內容的編輯器\<br\>
+md語法未完全適配，後續會更新補強\<br\>
 僅展示的前端功能，若有上傳圖片需求，請自行搭配後台
 
----開發者: [Pardn Chiu](https://github.com/pardnchiu)
+---
+開發者: [Pardn Chiu](https://github.com/pardnchiu)
 ***
-預覽: [Github Page](https://pardnchiu.github.io/mamdItalicrkdown-editor/)
+預覽: [Github Page](https://pardnchiu.github.io/mamdItalicrkdown-editor/ "test")
 源碼: [Github](https://github.com/pardnchiu/markdown-editor)
 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
 工具: Html, Css/Sass, Javascript
@@ -39,11 +40,10 @@ md語法未完全適配，後續會更新補強
 圖示: [Font Awesome 5.15.4](https://fontawesome.com/v5/search)
 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify)
 ---
-
 ##### 預覽
 | index |
 | - |
-| ![image](./preview/1.png) |
+| ![image](./preview/1.png)(100%x) |
 ---
 ##### 頂部按鈕
 \`\`\`
@@ -100,7 +100,6 @@ md語法未完全適配，後續會更新補強
   };
 \</script\>
 \`\`\`
-
 ##### 需自行實現`;
 
     // var mdEditorConf = {
@@ -116,3 +115,22 @@ md語法未完全適配，後續會更新補強
   </section>
 </body>
 </html>
+
+<!-- 
+
+  \B\[[^\n\[\]]*\]\([a-zA-Z0-9\@\:\%\?\.\-\_\/\\\+\~\#\=]+([  ]*|[  ]+\"[^\(\)]*\")\)
+
+
+  \([a-zA-Z0-9\@\:\%\?\.\-\_\/\\\+\~\#\=]+\)
+
+
+  [123[]](.123)
+[456
+](.456)
+
+[789](.789)[901](.901)
+
+[234[567](.567)](.567)[890](.890)
+
+\[(\S+?|\S+\n|\S+\n\S+|\n\S+)\]\(
+-->
