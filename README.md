@@ -11,13 +11,17 @@
 ---
 
 - 開發者: [Pardn Chiu](https://github.com/pardnchiu)
+
 <br>
+
 - 預覽: [Github](https://pardnchiu.github.io/markdown-editor/)
 - 源碼: [Github](https://github.com/pardnchiu/markdown-editor)
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
 - 工具: Html, Css/Sass, Javascript
 - 授權: [MIT License](https://github.com/pardnchiu/markdown-editor/blob/main/LICENSE)
+
 <br>
+
 - 圖示: [Font Awesome 5.15.4](https://fontawesome.com/v5/search)
 - 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify)
 
