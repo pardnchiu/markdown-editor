@@ -1,85 +1,21 @@
-# Markdown 簡易編輯器
+# Markdown 編輯器
 > 為 [JOBALL找專家](https://joball.tw) / [UMD你的博客](https://umd.tw) 需求所開發的功能
-用來提供給用戶們撰寫內容的編輯器
-md語法未完全適配，後續會更新補強
-僅展示的前端功能，若有上傳圖片需求，請自行搭配後台
+> 用來提供給用戶們撰寫內容的編輯器
+> md語法未完全適配, 會持續更新
+>
+> 僅展示前端, 若有上傳圖片需求, 需自行搭配後台
 
 ---
 
-開發者: [Pardn Chiu](https://github.com/pardnchiu)
+- 開發者: [Pardn Chiu](https://github.com/pardnchiu)
 
-***
+- 預覽: [Github](https://pardnchiu.github.io/markdown-editor/)
+- 源碼: [Github](https://github.com/pardnchiu/markdown-editor)
+- 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
+- 工具: Html, Css/Sass, Javascript
+- 授權: [MIT License](https://github.com/pardnchiu/markdown-editor/blob/main/LICENSE)
 
-預覽: [Github Page](https://pardnchiu.github.io/markdown-editor/)
-源碼: [Github](https://github.com/pardnchiu/markdown-editor)
-開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
-工具: Html, Css/Sass, Javascript
-授權: [MIT License](https://github.com/pardnchiu/markdown-editor/blob/main/LICENSE)
-
-___
-
-圖示: [Font Awesome 5.15.4](https://fontawesome.com/v5/search)
-高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify)
+- 圖示: [Font Awesome 5.15.4](https://fontawesome.com/v5/search)
+- 高亮: [Google Code-Pretty](https://github.com/googlearchive/code-prettify)
 
 ---
-##### 預覽
-| index |
-| - |
-| ![image](./preview/1.png) |
----
-##### 頂部按鈕
-```
-<script>
-  var mdEditorConf = {
-    nav: {
-      // 自訂圖示
-      logo : String,
-      // 自訂標題
-      title: String,
-      buttons: {
-        // 移除標題
-        removeHeading: Boolean,
-        // 添加標題1
-        addHeading1: Boolean,
-        // 添加標題2
-        addHeading2: Boolean,
-        // 添加標題3
-        addHeading3: Boolean,
-        // 添加標題4
-        addHeading4: Boolean,
-        // 添加標題5
-        addHeading5: Boolean,
-        // 添加標題6
-        addHeading6: Boolean,
-        // 添加粗體
-        addBold: Boolean,
-        // 添加刪除線
-        addStrikeThrough: Boolean,
-        // 添加斜體
-        addItalic: Boolean,
-        // 添加引用區塊
-        addBlockQuote: Boolean,
-        // 添加無序列表
-        addUnorderList: Boolean,
-        // 添加有序列表
-        addOrderList: Boolean,
-        // 添加代碼區塊
-        addCodeBlock: Boolean,
-        // 添加連結
-        addLink: Boolean,
-        // 添加圖片
-        addImage: Boolean,
-        // 清除全部
-        eraseAll: Boolean,
-        // 下載檔案 (md)
-        downloadMd: Boolean,
-        // 下載檔案 (html)
-        downloadHtml: Boolean,
-        // 開啟檔案 (md)
-        openMd: Boolean
-      }
-    }
-  };
-</script>
-```
-##### 需自行實現
