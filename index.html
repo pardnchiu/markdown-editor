@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown 編輯器 | pardnchiu</title>
-  <script src="js/PDExtension.min.js" defer></script>
+  <!-- <script src="js/PDExtension.min.js" defer></script> -->
   <script src="js/PDMDEditor.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <link rel="stylesheet" href="css/index.min.css">
@@ -44,7 +44,9 @@
 - 高亮: [Google Code Pretty](https://github.com/googlearchive/code-prettify)
 
 ***
+
 <br>
+
 ## 字體
 
 # H1-1
@@ -86,6 +88,7 @@ H2-2
 ***
 
 <br>
+
 ## 引用
 
 > 引用
@@ -101,7 +104,9 @@ H2-2
 >              - 引用 + 無序列表
 >                 - 引用 + 無序列表
 >                     - 引用 + 無序列表
+
 <br>
+
 ## 列表
 
 1. 有序列表
@@ -121,11 +126,15 @@ H2-2
              - 無序列表
                 - 無序列表
                     - 無序列表
+
 <br>
+
 ## 代碼高亮
 
 \`#新增程式碼\`
+
 <br>
+
 \`\`\`
 #新增程式碼
 #新增程式碼
@@ -135,7 +144,9 @@ H2-2
     #利用縮排新增程式碼
     #利用縮排新增程式碼
     #利用縮排新增程式碼
+
 <br>
+
 ## 連結／圖片
 
 1. 直接連結 https://github.com/pardnchiu/markdown-editor
@@ -146,10 +157,6 @@ H2-2
 6. 圖片+名稱+標題 ![名稱](image/github.png "標題")
 7. 圖片+自訂大小 ![](image/github.png)(50%*360)
 8. 圖片+連結 [![](image/github.png)](https://github.com/pardnchiu/markdown-editor)`;
-
-    // var mdEditorConf = {
-      
-    // };
   </script>
   <section id="md-nav" sel="false"></section>
   <section class="left">
@@ -160,22 +167,3 @@ H2-2
   </section>
 </body>
 </html>
-
-<!-- 
-
-  \B\[[^\n\[\]]*\]\([a-zA-Z0-9\@\:\%\?\.\-\_\/\\\+\~\#\=]+([  ]*|[  ]+\"[^\(\)]*\")\)
-
-
-  \([a-zA-Z0-9\@\:\%\?\.\-\_\/\\\+\~\#\=]+\)
-
-
-  [123[]](.123)
-[456
-](.456)
-
-[789](.789)[901](.901)
-
-[234[567](.567)](.567)[890](.890)
-
-\[(\S+?|\S+\n|\S+\n\S+|\n\S+)\]\(
--->
