@@ -1,0 +1,14 @@
+{
+  "name": "Markdown 簡易編輯器",
+  "short_name": "Md Editor",
+  "icons": [],
+  "start_url": "https://pardnchiu.github.io/markdown-editor/",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f0f2f5",
+  "theme_color": "#f5f5f5",
+  "description": "Markdown 簡易編輯器",
+  "dir": "ltr",
+  "lang": "zh-Hant-TW"
+}
