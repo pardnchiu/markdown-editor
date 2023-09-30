@@ -4,7 +4,7 @@
 > Through modular design, it is easy to integrate into websites for use.
 > Must be used in conjunction with [PDExtension-js](https://github.com/pardnchiu/PDExtension-js).
 
-![Markdown 簡易編輯器 (Web) - Pardn Chiu 邱敬幃](./image/index.jpg)
+![Markdown 簡易編輯器 (Web) - Pardn Chiu 邱敬幃](./image/preview.jpg)
 
 ## Feature
 
