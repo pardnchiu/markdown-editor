@@ -51,39 +51,39 @@ viewer.init();
 ## MDEditor
 ```Typescript
 interface MDEditor {
-    // 初始化編輯器。
+    // Initialize the editor.
     init: (pre: string) => void;
-    // 添加標題。
+    // Add heading.
     addHeading: (num: number) => void;
-    // 添加粗體。
+    // Add bold.
     addBold: () => void;
-    // 添加斜體。
+    // Add italic.
     addItalic: () => void;
-    // 添加刪除線。
+    // Add strikethrough.
     addStrikethrough: () => void;
-    // 添加下劃線。
+    // Add underline.
     addUnderline: () => void;
-    // 添加標記。
+    // Add marker.
     addMarker: () => void;
-    // 添加引用區塊。
+    // Add blockquote.
     addBlockquote: () => void;
-    // 添加無序列表。
+    // Add unordered list.
     addUl: () => void;
-    // 添加有序列表。
+    // Add ordered list.
     addOl: () => void;
-    // 添加代碼塊。
+    // Add code block.
     addCode: () => void;
-    // 添加超連結。
+    // Add hyperlink.
     addLink: (title: string, href: string) => void;
-    // 添加圖片。
+    // Add image.
     addImage: (src: string, alt: string, title: string) => void;
-    // 清空編輯器內容。
+    // Clear editor content.
     clear: () => void;
-    // 輸出為 Markdown 文件。
+    // Output as Markdown file.
     downloadMd: () => void;
-    // 輸出為 HTML 文件。
+    // Output as HTML file.
     downloadHtml: () => void;
-    // 開啟.md文件。
+    // Open .md file.
     openfile: (file) => void;
 };
 ```
