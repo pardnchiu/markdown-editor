@@ -10,7 +10,7 @@
 
 - Built using Html, Css / Sass and JavaScript.
 - Rendered using [PDExtension](https://github.com/pardnchiu/PDExtension-js).
-- Use [Font Awesome 6](https://fontawesome.com/v6/search) icons.
+- Use [Font Awesome 6](https://fontawesome.com/v6/search) icons and [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
 - Preview available [Here](https://pardnchiu.github.io/markdown-editor).
 
 ## Include
