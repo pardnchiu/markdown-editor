@@ -1,82 +1,60 @@
-<!--
-  Name: 
-    Markdown 編輯器
+<!-- 
 
-  Authors: 
-    Pardn Ltd 帕登國際有限公司 
-    Pardn Chiu 邱敬幃
-
-  Copyright: 
-    Pardn Ltd 帕登國際有限公司
-
-  License: 
-    本授權條款允許使用者重製、散布、傳輸以及修改著作，但不得為商業目的之使用。
-    使用時必須按照著作人指定的方式表彰其姓名。
-
-  License URI: 
-    https://pardnchiu.github.io/markdown-editor/LICENSE
--->
+  Copyright 2023 Pardn Ltd 帕登國際有限公司.
+  Created by Pardn Chiu 邱敬幃.
+  Email: chiuchingwei@icloud.com
+  
+ -->
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
 
 	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!--  -->
-		<title>Markdown 編輯器</title>
-		<meta name="description" content="">
-		<meta name="theme-color" content="#efefef">
-		<!--  -->
-		<meta property="og:title" content="Markdown 編輯器">
-		<meta property="og:description" content="">
-		<meta property="og:image" content="">
-		<meta property="og:url" content="https://pardnchiu.github.io/markdown-editor/">
-		<meta property="og:type" content="website">
-		<!--  -->
-		<meta property="twitter:title" content="Markdown 編輯器">
-		<meta property="twitter:description" content="">
-		<meta property="twitter:image" content="">
-		<meta property="og:url" content="https://pardnchiu.github.io/markdown-editor/">
-		<!--  -->
-		<meta property="twitter:site" content="">
-		<meta property="twitter:card" content="">
-		<!--  -->
-		<meta name="mobile-web-app-capable" content="no">
-		<meta name="apple-mobile-web-app-capable" content="no">
-		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-		<meta name="viewport"
-			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
-		<meta name="theme-color" content="#000">
-		<!--  -->
-		<link rel="apple-touch-icon" href="">
-		<link rel="apple-touch-icon-precomposed" href="">
-		<link rel="icon" href="" type="image/x-icon">
-		<!--  -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta name="mobile-web-app-capable" content="no">
+        <meta name="apple-mobile-web-app-capable" content="no">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="robots" content="index follow">
+        <!--  -->
+        <title>Markdown Editor | 邱敬幃 Pardn Chiu | GitHub.io</title>
+        <meta name="title" content="Markdown Editor | 邱敬幃 Pardn Chiu | GitHub.io">
+        <meta name="description" content="Markdown 編輯器 | 帕登數位科技有限公司">
+        <!-- -->
+        <meta name="author" content="邱敬幃 Pardn Chiu">
+        <link rel="author" href="https://pardn.io">
+        <link rel="canonical" href="https://pardnchiu.github.io/markdown-editor/">
+        <meta name="referrer" content="unsafe-url">
+        <meta name="copyright" content="© 2023 帕登數位科技有限公司 Pardn Ltd">
+        <!-- Facebook -->
+        <meta property="og:title" content="Markdown Editor | 邱敬幃 Pardn Chiu | GitHub.io">
+        <meta property="og:description" content="Markdown 編輯器 | 帕登數位科技有限公司">
+        <meta property="og:image" content="https://pardn.io/image/repo/markdown-editor.jpg">
+        <meta property="og:url" content="https://pardnchiu.github.io/markdown-editor/">
+        <meta property="og:site_name" content="Pardn Chiu 的 Github Page">
+        <meta property="og:type" content="website">
+        <!-- Twitter -->
+        <meta property="twitter:title" content="markdown-editor | 邱敬幃 Pardn Chiu | GitHub.io">
+        <meta property="twitter:description" content="Markdown 編輯器 | 帕登數位科技有限公司">
+        <meta property="twitter:image" content="https://pardnchiu.github.io//image/repo/markdown-editor.jpg">
+        <meta property="twitter:url" content="https://pardnchiu.github.io/markdown-editor/">
+        <!-- Google -->
+        <meta name="google-site-verification" content="YQQ2f6AchR8dcb55Az2BYd_mw4TrP0J1RApD-v2v65Y">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5VYEZPVXX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-L5VYEZPVXX');
+        </script>
+        <!--  -->
 		<link rel="stylesheet" href="css/index.css">
-		<link rel="manifest" href="./manifest.json">
-		<link
-			href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-			rel="stylesheet">
 		<!--  -->
-		<!-- <script src="js/PDExtension.min.js" defer></script> -->
 		<script src="https://pardnchiu.github.io/PDExtension-js/PDExtension.min.js" copyright="Pardn Ltd"></script>
-		<script src="./js/PDMDEditor.min.js?v=1" copyright="Pardn Ltd"></script>
-		<script src="./js/index.min.js" defer></script>
-		<!-- <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script> -->
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-L5VYEZPVXX"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() { dataLayer.push(arguments); }
-			gtag('js', new Date());
-
-			gtag('config', 'G-L5VYEZPVXX');
-		</script>
+		<script src="js/PDMDEditor.min.js?v=1" copyright="Pardn Ltd"></script>
+		<script src="js/index.min.js" defer></script>
 	</head>
-	<style>
-	</style>
-
-	<body class="preview">
-	</body>
-
+	<body class="preview"></body>
 </html>
