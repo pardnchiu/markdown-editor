@@ -7,6 +7,7 @@
 # 忽略所有.js 僅保留.min.js
 *.js
 !*.min.js
+*.temp.*
 # 忽略vscode 工作台
 *.code-workspace
 # 忽略Folder Icon
