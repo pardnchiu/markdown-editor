@@ -13,6 +13,10 @@
 - Use [Font Awesome 6](https://fontawesome.com/v6/search) icons and [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
 - Preview available [Here](https://pardnchiu.github.io/markdown-editor).
 
+## Example
+
+- [Blog](https://pardn.io/blog/bing-dall-e-3)
+
 ## Include
 
 ```Html
