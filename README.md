@@ -1,6 +1,8 @@
 # Markdown Editor
 
-[![Hits](https://hits.sh/github.com/markdown-editor.svg)](https://hits.sh/github.com/markdown-editor/)
+<!-- [![Hits](https://hits.sh/github.com/markdown-editor.svg)](https://hits.sh/github.com/markdown-editor/) -->
+
+![](https://img.shields.io/github/repo-size/pardnchiu/markdown-editor?label=Size) ![](https://img.shields.io/github/license/pardnchiu/markdown-editor?label=License) ![](https://img.shields.io/badge/Creator-Pardn%20Chiu%20邱敬幃-A374BF)
 
 ![](./image/preview.jpg)
 
@@ -11,7 +13,7 @@
 - Use [Font Awesome 6](https://fontawesome.com/v6/search) icons and [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
 - Preview available [Here](https://pardnchiu.github.io/markdown-editor).
 
-## Contributor
+## Creator
 
 <a href="https://pardn.io">
 <img src=https://pardn.io/image/head-s.jpg align=left width=100 height=100>
@@ -19,11 +21,7 @@
 
 ### 邱敬幃 Pardn Chiu
 
-<a href="mailto:mail@pardn.ltd">
-  <img src="https://pardn.io/image/mail.svg">
-</a>&nbsp<a href="https://linkedin.com/in/pardnchiu">
-  <img src="https://skillicons.dev/icons?i=linkedin">
-</a>
+[![](https://pardn.io/image/mail.svg)](mailto:mail@pardn.ltd) [![](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/pardnchiu) 
 
 ## Include
 
@@ -104,7 +102,7 @@ interface MDEditor {
 
 ## Example
 
-- [Blog](https://pardn.io/blog/bing-dall-e-3)
+- [](https://pardn.io/blog/bing-dall-e-3)
 
 ## License
 
