@@ -104,7 +104,7 @@ interface MDEditor {
 
 ## Example
 
-- [](https://pardn.io/blog/bing-dall-e-3)
+- [https://pardn.io/blog/bing-dall-e-3](https://pardn.io/blog/bing-dall-e-3)
 
 ## License
 
