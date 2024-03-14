@@ -1,10 +1,8 @@
 # Markdown Editor
 
-> A web-based Markdown editor with real-time preview designed for editing of md files online. 
-> Through modular design, it is easy to integrate into websites for use.
-> Must be used in conjunction with [PDExtension-js](https://github.com/pardnchiu/PDExtension-js).
+[![Hits](https://hits.sh/github.com/markdown-editor.svg)](https://hits.sh/github.com/markdown-editor/)
 
-![Markdown 簡易編輯器 (Web) - Pardn Chiu 邱敬幃](./image/preview.jpg)
+![](./image/preview.jpg)
 
 ## Feature
 
@@ -13,9 +11,19 @@
 - Use [Font Awesome 6](https://fontawesome.com/v6/search) icons and [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
 - Preview available [Here](https://pardnchiu.github.io/markdown-editor).
 
-## Example
+## Contributor
 
-- [Blog](https://pardn.io/blog/bing-dall-e-3)
+<a href="https://pardn.io">
+<img src=https://pardn.io/image/head-s.jpg align=left width=100 height=100>
+</a>
+
+### 邱敬幃 Pardn Chiu
+
+<a href="mailto:mail@pardn.ltd">
+  <img src="https://pardn.io/image/mail.svg">
+</a>&nbsp<a href="https://linkedin.com/in/pardnchiu">
+  <img src="https://skillicons.dev/icons?i=linkedin">
+</a>
 
 ## Include
 
@@ -53,6 +61,7 @@ viewer.init();
 ```
 
 ## MDEditor
+
 ```Typescript
 interface MDEditor {
     // Initialize the editor.
@@ -92,9 +101,10 @@ interface MDEditor {
 };
 ```
 
-## Contributor
 
-- [Pardn Chiu 邱敬幃](https://linkedin.com/in/pardnchiu)
+## Example
+
+- [Blog](https://pardn.io/blog/bing-dall-e-3)
 
 ## License
 
