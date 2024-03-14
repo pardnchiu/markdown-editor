@@ -8,8 +8,10 @@
 
 ## Feature
 
-- Built using Html, Css / Sass and JavaScript.
-- Rendered using [PDExtension](https://github.com/pardnchiu/PDExtension-js).
+- Provides separate editor and viewer modules for independent use.
+- Achieves real-time preview when the editor and viewer are used together.
+- Built using HTML, CSS / Sass and JavaScript.
+- Rendered using [PDExtension-js](https://github.com/pardnchiu/PDExtension-js).
 - Use [Font Awesome 6](https://fontawesome.com/v6/search) icons and [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
 - Preview available [Here](https://pardnchiu.github.io/markdown-editor).
 
@@ -19,11 +21,11 @@
 <img src=https://pardn.io/image/head-s.jpg align=left width=100 height=100>
 </a>
 
-### 邱敬幃 Pardn Chiu
+### Pardn Chiu 邱敬幃
 
 [![](https://pardn.io/image/mail.svg)](mailto:mail@pardn.ltd) [![](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/pardnchiu) 
 
-## Include
+## How to use?
 
 ```Html
 <script src="PDExtension.min.js" copyright="Pardn Ltd"></script>
