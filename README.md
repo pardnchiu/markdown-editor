@@ -1,7 +1,5 @@
 # Markdown Editor
 
-<!-- [![Hits](https://hits.sh/github.com/markdown-editor.svg)](https://hits.sh/github.com/markdown-editor/) -->
-
 ![](https://img.shields.io/github/repo-size/pardnchiu/markdown-editor?label=Size) ![](https://img.shields.io/github/license/pardnchiu/markdown-editor?label=License) ![](https://img.shields.io/badge/Creator-Pardn%20Chiu%20邱敬幃-A374BF)
 
 ![](./image/preview.jpg)
@@ -12,7 +10,8 @@
 - Achieves real-time preview when the editor and viewer are used together.
 - Built using HTML, CSS / Sass and JavaScript.
 - Rendered using [PDExtension-js](https://github.com/pardnchiu/PDExtension-js).
-- Use [Font Awesome 6](https://fontawesome.com/v6/search) icons and [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
+- Use [Font Awesome 6](https://fontawesome.com/v6/search) icons
+- Use [code-prettify](https://github.com/googlearchive/code-prettify) for code highlighting.
 - Preview available [Here](https://pardnchiu.github.io/markdown-editor).
 
 ## Creator
@@ -24,6 +23,10 @@
 ### Pardn Chiu 邱敬幃
 
 [![](https://pardn.io/image/mail.svg)](mailto:mail@pardn.ltd) [![](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/pardnchiu) 
+
+## License
+
+This source code project is licensed under the GPL-3.0 license.
 
 ## How to use?
 
@@ -101,14 +104,9 @@ interface MDEditor {
 };
 ```
 
-
 ## Example
 
 - [https://pardn.io/blog/bing-dall-e-3](https://pardn.io/blog/bing-dall-e-3)
-
-## License
-
-This source code project is licensed under the GPL-3.0 license.
 
 ***
 
