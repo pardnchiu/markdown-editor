@@ -69,6 +69,8 @@ viewer.init();
 interface MDEditor {
     // Initialize the editor.
     init: (pre: string) => void;
+    goBack: () => void;
+    goForward: () => void;
     // Add heading.
     addHeading: (num: number) => void;
     // Add bold.
